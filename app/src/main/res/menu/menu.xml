@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/create_poll_menu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Create Poll" />
+
+    <item
+        android:id="@+id/create_post"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Create Post" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Logout" />
+
+</menu>

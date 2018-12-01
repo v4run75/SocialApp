@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+       android:layout_marginTop="50dp"
+        android:text="WELCOME TO"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:elevation="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginLeft="0dp"
+        android:elevation="10dp"
+        android:layout_marginBottom="429dp"
+        android:fontFamily="@font/bebasneue"
+        android:text="Social"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="135dp"
+        android:background="@drawable/round_login_button"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="SIGN UP"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="99dp"
+        android:text="Got an account?"
+        android:fontFamily="@font/bebasneue"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="#1b1b1b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_register_button"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"/>
+
+
+
+</RelativeLayout>
